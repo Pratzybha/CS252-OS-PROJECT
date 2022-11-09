@@ -41,7 +41,7 @@ The threads are used to carry out aforementioned work.
 The C Program:
 
 (https://gist.github.com/Jabiribn/e58bf13c678953891900e5f982b48037) \ 
-(https://stackoverflow.com/questions/26090901/find-prime-numbers-in-a-separate-thread) \
+(https://stackoverflow.com/questions/26090901/find-prime-numbers-in-a-separate-thread) 
 
 The PThread Data Types & Functions:
 
