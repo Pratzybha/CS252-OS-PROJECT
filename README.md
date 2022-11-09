@@ -3,10 +3,10 @@ Write a multithreaded program that calculates various statistical values for a l
 
 For example, suppose your program is passed the integers 90 81 78 95 79 72 85
 
-> The program will report
-> The average value is 82
-> The minimum value is 72
-> The maximum value is 95
+> The program will report \
+> The average value is 82 \
+> The minimum value is 72 \
+> The maximum value is 95 \
 
 The variables representing the average, minimum, and maximum values will be stored globally. The worker threads will set these values, and the parent thread will output the values once the workers have exited. (We could obviously expand this program by creating additional threads that determine other statistical values, such as median and standard deviation.)
 
@@ -20,8 +20,8 @@ We define the input function in order to get values to be stored in an array.
 We define 3 functions for start_routine - thread_average, thread_minimum, thread_maximum.
 
 #### Screenshot of a test case:
-[TEST CASE 4 221](!/4-22-EVEN-OUTPUT.jpeg)
-[TEST CASE 4 222](!/4-22-ODD-OUTPUT.jpeg)
+[TEST CASE 4 221](/4-22-EVEN-OUTPUT.jpeg)
+[TEST CASE 4 222](/4-22-ODD-OUTPUT.jpeg)
 
 ## 4.23 Writing a Multi-Threaded Program
 Write a multithreaded program that outputs prime numbers. This program should work as follows: The user will run the program and will enter a number on the command line. The program will then create a separate thread that outputs all the prime numbers less than or equal to the number entered by the user.
@@ -36,7 +36,7 @@ Print function prints the prime numbers from 2 to that number.
 The threads are used to carry out aforementioned work.
 
 #### Screenshot of a test case:
-[TEST CASE 4 23](!/4-23-OUTPUT.jpeg)
+[TEST CASE 4 23](/4-23-OUTPUT.jpeg)
 
 The C Program:
 
