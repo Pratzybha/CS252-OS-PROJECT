@@ -43,7 +43,7 @@ void main(){
     c=pthread_create(&thd,NULL,&printprime,NULL);
     pthread_join(thd,NULL);
     c=pthread_create(&thd2,NULL,&print,NULL);
-    pthread_join(thd,NULL);
+    pthread_join(thd2,NULL);
     
     
 }
