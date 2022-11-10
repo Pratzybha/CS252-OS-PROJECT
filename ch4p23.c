@@ -36,11 +36,11 @@ void *printprime()
 }
 void main(){
     int i,c;
-    pthread_t thd;
+    pthread_t thd1;
     pthread_t thd2;
     printf("Enter the limit: ");
     scanf("%d",&N);
-    c=pthread_create(&thd,NULL,&printprime,NULL);
+    c=pthread_create(&thd1,NULL,&printprime,NULL);
     pthread_join(thd,NULL);
     c=pthread_create(&thd2,NULL,&print,NULL);
     pthread_join(thd2,NULL);
