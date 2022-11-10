@@ -41,7 +41,7 @@ void main(){
     printf("Enter the limit: ");
     scanf("%d",&N);
     c=pthread_create(&thd1,NULL,&printprime,NULL);
-    pthread_join(thd,NULL);
+    pthread_join(thd1,NULL);
     c=pthread_create(&thd2,NULL,&print,NULL);
     pthread_join(thd2,NULL);
     
